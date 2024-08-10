@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonuçlar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sonuçlar</h1>
+    <h2>Doğru ve Yanlış Cevaplar</h2>
+    <ul>
+        <li>
+            <strong>Soru 1:</strong> Python'da AI geliştirme ile ilgili hangi kütüphane yaygın olarak kullanılır?
+            <br>
+            <strong>Doğru Cevap:</strong> b) TensorFlow
+            <br>
+            <strong>Sizin Cevabınız:</strong> {{ answers['q1'] }}
+            <br>
+            <strong>Sonuç:</strong> {% if answers['q1'] == 'b' %} Doğru! {% else %} Yanlış. {% endif %}
+        </li>
+        <li>
+            <strong>Soru 2:</strong> Bilgisayar görüşü alanında hangi teknik yaygın olarak kullanılır?
+            <br>
+            <strong>Doğru Cevap:</strong> b) Convolutional Neural Networks
+            <br>
+            <strong>Sizin Cevabınız:</strong> {{ answers['q2'] }}
+            <br>
+            <strong>Sonuç:</strong> {% if answers['q2'] == 'b' %} Doğru! {% else %} Yanlış. {% endif %}
+        </li>
+        <li>
+            <strong>Soru 3:</strong> NLP (Nöro-dilbilim) için hangi kütüphane Python'da yaygın olarak kullanılır?
+            <br>
+            <strong>Doğru Cevap:</strong> a) NLTK
+            <br>
+            <strong>Sizin Cevabınız:</strong> {{ answers['q3'] }}
+            <br>
+            <strong>Sonuç:</strong> {% if answers['q3'] == 'a' %} Doğru! {% else %} Yanlış. {% endif %}
+        </li>
+        <li>
+            <strong>Soru 4:</strong> Python uygulamalarında AI modelleri uygulama sürecinde hangi adım ilk olarak yapılır?
+            <br>
+            <strong>Doğru Cevap:</strong> b) Veriyi toplamak
+            <br>
+            <strong>Sizin Cevabınız:</strong> {{ answers['q4'] }}
+            <br>
+            <strong>Sonuç:</strong> {% if answers['q4'] == 'b' %} Doğru! {% else %} Yanlış. {% endif %}
+        </li>
+    </ul>
+    <a href="C:\Users\Deniz\Downloads\OrnekSite\templates\quiz.html">Quiz'e geri dön</a>
+</body>
+</html>

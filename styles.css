@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6347; /* Tomat renk */
+    padding: 20px;
+    background-color: #ffe4e1; /* Mavi-beyaz arası arka plan */
+    border-bottom: 5px solid #ff6347; /* Tomat rengi alt sınır */
+    margin: 0;
+    border-radius: 0 0 15px 15px;
+}
+
+h2 {
+    color: #4682b4; /* Çelik Mavi */
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 2px solid #f08080; /* Hafif kırmızı sınır */
+    border-radius: 10px;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Hafif gölge */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+li:hover {
+    background-color: #f0f8ff; /* Arka plan rengini değiştirme */
+    transform: scale(1.02); /* Hafif büyütme etkisi */
+}
+
+strong {
+    color: #ff4500; /* Turuncu-kırmızı */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: #32cd32; /* Yeşil renk */
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #f5deb3; /* Buğday rengi arka plan */
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px solid #32cd32; /* Yeşil sınır */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a:hover {
+    background-color: #32cd32; /* Yeşil arka plan */
+    color: #ffffff; /* Beyaz metin */
+    text-decoration: none;
+}
